@@ -1,0 +1,78 @@
+
+body {
+    /* fallback for old browsers */
+  
+ 
+    /*font family*/
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .gradient-custom {
+   /* fallback for old browsers */
+   background: #f6d365;
+
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+ 
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+  
+  .container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+ .container--form{
+  max-width:  700px;
+  width: 100%;
+ 
+  padding: 25px 30px ;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+ }
+ .container--form .title{
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+ }
+
+
+ .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+ .input-box{
+width: calc(100% / 2 - 20px );
+ }
+
+ .input{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+
+ }
+
+ .button{
+   height: 40px;
+   width: 100%;
+   border-radius: 5px;
+   background-color: #024488 ;
+   border: none; 
+   color: white;
+
+ }
+.error{
+  margin-top: -12px;
+  margin-left: 6px;
+  font-size: 11px;
+  color: red;
+}
+
